@@ -14,8 +14,11 @@ montopropina = totalcuenta * (porcentajepropina / 100)
 totalapagar = montopropina + totalcuenta
 
 escribir "___________"
+
 escribir "cuenta total :", totalcuenta
+
 escribir "propina: (", porcentajepropina "%): $", montopropina
+
 escribir "total a pagar: $", totalapagar
 
 finalgoritmo
