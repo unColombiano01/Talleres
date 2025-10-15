@@ -22,6 +22,7 @@ escribir "propina: (", porcentajepropina "%): $", montopropina
 escribir "total a pagar: $", totalapagar
 
 finalgoritmo
+<<<<<<< HEAD
 
 **DESCUENTO ESCALONADO**
 
@@ -50,3 +51,5 @@ finsi
 totalfinal flecha izquierda total2
 
 finalgoritmo
+=======
+>>>>>>> origin/main
