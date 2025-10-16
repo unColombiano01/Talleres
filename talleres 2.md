@@ -87,3 +87,18 @@ sino
 escribir "resultado: reprobado"
 finsi 
 finalgoritmo
+
+**TABLA DE MULTIPLICAR MEJORADA**
+
+algoritmo TabladeMultiplicarMejorada
+definir x como entero
+
+escribir "ingresar un numero entero: "
+leer x
+
+para n (- 1 hasta 10 hacer
+si (n*x) mod 2=0 entonces
+escribir x," * ", n, "=", x*n
+finsi
+finsi
+finalgoritmo
