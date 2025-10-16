@@ -51,5 +51,39 @@ finsi
 totalfinal flecha izquierda total2
 
 finalgoritmo
-=======
->>>>>>> origin/main
+
+**CALCULAR PROMEDIO CON VALIDACION**
+
+algoritmo CalculadoraPromedioConValidacion
+definir n, i como entero
+definir calificacion, suma, promedio como real
+
+suma (- 0
+
+escribir "¿cuantas calificaciones deseas ingresar?"
+leer calificacion
+
+para i + 1 hasta n con paso 1 hacer
+escribir "calificacion ", i, ": "
+leer calificacion
+
+mientras calificacion menor que 0 o calificacion mayor que 5 hacer
+escribir "error: la calificacion debe estar entre 0 y 5"
+escribir "calificacion ", i, ": "
+leer calificacion
+finmientras
+
+suma (- suma + calificacion
+finpara
+
+promedio (- suma / n
+
+escribir "_______________"
+escribir "promedio: ", promedio 
+
+si promedio menor igual que 3 entonces
+escribir "resultado: aprobado"
+sino
+escribir "resultado: reprobado"
+finsi 
+finalgoritmo
